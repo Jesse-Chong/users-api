@@ -2,6 +2,7 @@
   "users": [
       {
       "id": 1,
+      "image": "../assets/aatrox.png",
       "name": "AATROX THE DARKIN BLADE",
       "lore": "Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery. But after centuries of imprisonment, Aatrox was the first to find freedom once more, corrupting and transforming those foolish enough to try and wield the magical weapon that contained his essence. Now, with stolen flesh, he walks Runeterra in a brutal approximation of his previous form, seeking an apocalyptic and long overdue vengeance.\n\n",
       "attributes": "Health(650 – 2588)\nMana(N/A)\nHealth regen.(per 5s)(3–20)\nMana regen.(N/A)\nArmor (38 – 113.65)\nAttack damage (60 – 145)\nMagic resist. (32 – 66.85)\nCrit. damage 175%\nMove. speed 345\nAttack range 175\nBase attack speed 0.651\nAttack windup 19.737%\nAS ratio N/A\nBonus AS (0 – 42.5%)",
@@ -19,9 +20,33 @@
           "skills_e": "Umbral Dash (E)\nCOOLDOWN: 9 / 8 / 7 / 6 / 5\nCAST TIME: NONE\nTARGET RANGE: 75 / 300 / 500\nSPEED: 800 / UP TO 1340\nPASSIVE: Aatrox heals for a portion of the non-Blaze persistent post-mitigation damage he deals against enemy champions, increased during World Ender World Ender.\nHEALING:»\n18 / 19.5 / 21 / 22.5 / 24%\nUmbral Dash\nACTIVE: Aatrox Dash dashes in the target direction.\nUmbral Dash Bladework resets Aatrox's basic attack timer and can be cast during his other abilities without cancelling them and vice versa.\n\n"
           },
           {
-              "skills_r": "World Ender\nCOOLDOWN: 120 / 100 / 80\nCAST TIME: 0.25\nEFFECT RADIUS: 600\nWorld Ender\nACTIVE: Aatrox unleashes his true form for 10 seconds, fearing nearby enemy minions and monsters for 3 seconds, during which they are gradually slowed by up to 99% over the duration. He also gains ghosting and bonus movement speed that decays by 10% of the current bonus every 0.25 seconds, lasting until World Ender has ended.\nBONUS MOVEMENT SPEED:\n60 / 80 / 100%\nWhenever Aatrox scores a champion Damage rating takedown, he extends the duration by 5 seconds and becomes unleashed again.\nDuring World Ender, Aatrox gains bonus attack damage and 5% increased size, and receives increased self-healing from all sources.\nBONUS ATTACK DAMAGE:\n20 / 32.5 / 45% AD\nINCREASED HEALING:\n25 / 35 / 45%"
+              "skills_r": "World Ender\nCOOLDOWN: 120 / 100 / 80\nCAST TIME: 0.25\nEFFECT RADIUS: 600\nWorld Ender\nACTIVE: Aatrox unleashes his true form for 10 seconds, fearing nearby enemy minions and monsters for 3 seconds, during which they are gradually slowed by up to 99% over the duration. He also gains ghosting and bonus movement speed that decays by 10% of the current bonus every 0.25 seconds, lasting until World Ender has ended.\nBONUS MOVEMENT SPEED:\n60 / 80 / 100%\nWhenever Aatrox scores a champion Damage rating takedown, he extends the duration by 5 seconds and becomes unleashed again.\nDuring World Ender, Aatrox gains bonus attack damage and 5% increased size, and receives increased self-healing from all sources.\nBONUS ATTACK DAMAGE:\n20 / 32.5 / 45% AD\nINCREASED HEALING:\n25 / 35 / 45%\n\n"
           }
       ]
-}
-]
+      },
+      {
+      "id": 2,
+      "image": "../assets/ahri.png",
+      "name": "AHRI THE NINE-TAILED FOX",
+      "lore": "Innately connected to the magic of the spirit realm, Ahri is a fox-like vastaya who can manipulate her prey's emotions and consume their essence—receiving flashes of their memory and insight from each soul she consumes. Once a powerful yet wayward predator, Ahri is now traveling the world in search of remnants of her ancestors while also trying to replace her stolen memories with ones of her own making.\n\n",
+      "attributes": "Health (590 – 2222)\nMana (418 – 843)\nHealth regen. (per 5s)(2.5 – 12.7)\nMana regen. (per 5s)(8 – 21.6)\nArmor(21 – 100.9)\nAttack damage (53 – 104)\nMagic resist. (30 – 52.1)\nCrit. damage 175%\nMove. speed 330\nAttack range 550\nBase attack speed 0.668\nAttack windup 20.054%\nAS ratio N/A\nBonus AS (0 – 34%)",
+      "skills": [
+        {
+          "skills_passive": "Essence Theft\nINNATE: Ahri generates a stack of Essence Fragment whenever she kills aminion or monster. At 9 stacks, she consumes them to heal herself for 35 − 95 (based on level) (+ 20% AP).\nAdditionally, whenever Ahri scores a champion Damage rating takedown within 3 seconds of damaging them, she consumes their essence to heal herself for 75 − 165 (based on level) (+ 30% AP)\n\n"
+        },
+        {
+        "skills_q": "Orb of Deception\nCOST: 55 / 65 / 75 / 85 / 95 MANA\nCOOLDOWN: 7\nCAST TIME: 0.25\nRANGE: Range center 900\nEFFECT RADIUS: Range center 100\nWIDTH: Range model 200\nSPEED: 1550 / 60 - 2600\nACTIVE: Ahri sends her orb in the target direction that deals magic damage to enemies hit. At maximum range, the orb homes back to her to deal the same in true damage to enemies hit.\nDAMAGE PER PASS:»\n40 / 65 / 90 / 115 / 140 (+ 45% AP)\nEnemies can be hit only once per pass.\n\n"
+        },
+        {
+        "skills_w": "Fox-Fire\nCOST: 30 MANA\nCOOLDOWN: 9 / 8 / 7 / 6 / 5\nCAST TIME: NONE\nEFFECT RADIUS: Range center 150 / 550 / 725\nSPEED: 75.92° PER SECOND / 1400\nACTIVE: Ahri gains 40% bonus movement speed that decays over 2 seconds and conjures three flames which orbit her clockwise for up to 2.5 seconds.\nAfter 0.25 seconds, each flame targets a visible enemy, or after 0.4 seconds targets the closest visible enemy in range, dealing magic damage. The damage is doubled against minions below 20% maximum health.\nMAGIC DAMAGE:»\n50 / 75 / 100 / 125 / 150 (+ 30% AP)\nSubsequent flames on a single target deal 30% damage\nADDITIONAL MAGIC DAMAGE:»\n15 / 22.5 / 30 / 37.5 / 45 (+ 9% AP)\nFlames prioritize enemy champions hit by Charm, then enemy champions, then minions that would die to Fox-Fire's damage, and then the target of Ahri's last basic attack within 3 seconds.\n\n"
+        },
+        {
+          "skills_e": "Charm\nCOST: 60 MANA\nCOOLDOWN: 14\nCAST TIME: 0.25\nRANGE: Range center 1000\nWIDTH: Range model 120\nSPEED: 1550\nACTIVE: Ahri blows forth a kiss in the target direction that deals magic damage to the first enemy hit, knocking them down and charming and slowing them by 65% for a duration.\nMAGIC DAMAGE:»\n80 / 110 / 140 / 170 / 200 (+ 60% AP)\nDISABLE DURATION:»\n1.2 / 1.4 / 1.6 / 1.8 / 2\n\n"
+        },
+        {
+          "skills_r": "Spirit Rush\nCOST: 100 MANA\nCOOLDOWN: 130 / 105 / 80\nCAST TIME: NONE\nTARGET RANGE: 500\nEFFECT RADIUS: Range center 600\nSPEED: 1200 + 100% MOVEMENT SPEED / 1400\nSpirit Rush\nACTIVE: Ahri Dash dashes to the target location and then fires essence bolts to up to 3 nearby visible enemies, each dealing magic damage.\nSpirit Rush can be recast twice more within 15 seconds of the activation at no additional cost, with a 1-second static cooldown between casts. Consuming a champion's essence with Essence Theft Essence Theft while Spirit Rush is active extends the recast duration by and up to 10 seconds, and grants an additional recast, storing up to 3 recasts at a time.\nMAGIC DAMAGE:\n60 / 90 / 120 (+ 35% AP)\nRECAST: Ahri mimics the first cast's effects.\nSpirit Rush's recast duration will persist even after having used all recasts. Fox-Fire Fox-Fire can be cast during the dash. Spirit Rush will cast at max range if cast beyond that.\n\n"
+        }
+      ]
+      }
+  ]
 }
