@@ -4,7 +4,7 @@ const users = require('./db.json').users;
 const cors = require('cors');
 
 app.use(cors());
-
+app.use(express.json({ limit: '10mb' }));
 
 app.get('/users', (req, res) => {
   const formattedUsers = users.map(user => {
