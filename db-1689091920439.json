@@ -5,7 +5,7 @@
       "image": "https://i.imgur.com/TNqm53W.png",
       "name": "AATROX THE DARKIN BLADE",
       "lore": "Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery. But after centuries of imprisonment, Aatrox was the first to find freedom once more, corrupting and transforming those foolish enough to try and wield the magical weapon that contained his essence. Now, with stolen flesh, he walks Runeterra in a brutal approximation of his previous form, seeking an apocalyptic and long overdue vengeance.\n\n",
-      "attributes": "Health(650 – 2588)\nMana(N/A)\nHealth regen.(per 5s)(3–20)\nMana regen.(N/A)\nArmor (38 – 113.65)\nAttack damage (60 – 145)\nMagic resist. (32 – 66.85)\nCrit. damage 175%\nMove. speed 345\nAttack range 175\nBase attack speed 0.651\nAttack windup 19.737%\nAS ratio N/A\nBonus AS (0 – 42.5%)",
+      "attributes": "Health(650 – 2588)\nMana(N/A)\nHealth regen.(per 5s)(3–20)\nMana regen.(N/A)\nArmor (38 – 113.65)\nAttack damage (60 – 145)\nMagic resist. (32 – 66.85)\nCrit. damage 175%\nMove. speed 345\nAttack range 175\nBase attack speed 0.651\nAttack windup 19.737%\nAS ratio N/A\nBonus AS (0 – 42.5%)\n\n",
       "skills": [
           {
           "skills_passive": "Deathbringer Stance (Passive)\nSTATIC COOLDOWN: 24 − 12 (BASED ON LEVEL)\nDeathbringer Stance\nINNATE: Periodically, Aatrox empowers his next basic attack to gain 50 bonus range and deal bonus physical damage equal to 4% − 12% (based on level) of the target's maximum health, capped at 100 against monsters.\nAatrox Heal heals for 80% of the post-mitigation bonus damage dealt, reduced to 25% against minions.\nWhenever Aatrox hits at least one enemy Champion champion or large monster with a basic attack on-hit or an ability, the cooldown of Deathbringer Stance is reduced by 2 seconds, modified to 4 if he hits with the Sweetspot of The Darkin Blade.\n\n"
@@ -25,28 +25,52 @@
       ]
       },
       {
-      "id": 2,
-      "image": "https://i.imgur.com/rDxmEDJ.jpg",
-      "name": "AHRI THE NINE-TAILED FOX",
-      "lore": "Innately connected to the magic of the spirit realm, Ahri is a fox-like vastaya who can manipulate her prey's emotions and consume their essence—receiving flashes of their memory and insight from each soul she consumes. Once a powerful yet wayward predator, Ahri is now traveling the world in search of remnants of her ancestors while also trying to replace her stolen memories with ones of her own making.\n\n",
-      "attributes": "Health (590 – 2222)\nMana (418 – 843)\nHealth regen. (per 5s)(2.5 – 12.7)\nMana regen. (per 5s)(8 – 21.6)\nArmor(21 – 100.9)\nAttack damage (53 – 104)\nMagic resist. (30 – 52.1)\nCrit. damage 175%\nMove. speed 330\nAttack range 550\nBase attack speed 0.668\nAttack windup 20.054%\nAS ratio N/A\nBonus AS (0 – 34%)",
-      "skills": [
-        {
-          "skills_passive": "Essence Theft\nINNATE: Ahri generates a stack of Essence Fragment whenever she kills aminion or monster. At 9 stacks, she consumes them to heal herself for 35 − 95 (based on level) (+ 20% AP).\nAdditionally, whenever Ahri scores a champion Damage rating takedown within 3 seconds of damaging them, she consumes their essence to heal herself for 75 − 165 (based on level) (+ 30% AP)\n\n"
-        },
-        {
-        "skills_q": "Orb of Deception\nCOST: 55 / 65 / 75 / 85 / 95 MANA\nCOOLDOWN: 7\nCAST TIME: 0.25\nRANGE: Range center 900\nEFFECT RADIUS: Range center 100\nWIDTH: Range model 200\nSPEED: 1550 / 60 - 2600\nACTIVE: Ahri sends her orb in the target direction that deals magic damage to enemies hit. At maximum range, the orb homes back to her to deal the same in true damage to enemies hit.\nDAMAGE PER PASS:»\n40 / 65 / 90 / 115 / 140 (+ 45% AP)\nEnemies can be hit only once per pass.\n\n"
-        },
-        {
-        "skills_w": "Fox-Fire\nCOST: 30 MANA\nCOOLDOWN: 9 / 8 / 7 / 6 / 5\nCAST TIME: NONE\nEFFECT RADIUS: Range center 150 / 550 / 725\nSPEED: 75.92° PER SECOND / 1400\nACTIVE: Ahri gains 40% bonus movement speed that decays over 2 seconds and conjures three flames which orbit her clockwise for up to 2.5 seconds.\nAfter 0.25 seconds, each flame targets a visible enemy, or after 0.4 seconds targets the closest visible enemy in range, dealing magic damage. The damage is doubled against minions below 20% maximum health.\nMAGIC DAMAGE:»\n50 / 75 / 100 / 125 / 150 (+ 30% AP)\nSubsequent flames on a single target deal 30% damage\nADDITIONAL MAGIC DAMAGE:»\n15 / 22.5 / 30 / 37.5 / 45 (+ 9% AP)\nFlames prioritize enemy champions hit by Charm, then enemy champions, then minions that would die to Fox-Fire's damage, and then the target of Ahri's last basic attack within 3 seconds.\n\n"
-        },
-        {
-          "skills_e": "Charm\nCOST: 60 MANA\nCOOLDOWN: 14\nCAST TIME: 0.25\nRANGE: Range center 1000\nWIDTH: Range model 120\nSPEED: 1550\nACTIVE: Ahri blows forth a kiss in the target direction that deals magic damage to the first enemy hit, knocking them down and charming and slowing them by 65% for a duration.\nMAGIC DAMAGE:»\n80 / 110 / 140 / 170 / 200 (+ 60% AP)\nDISABLE DURATION:»\n1.2 / 1.4 / 1.6 / 1.8 / 2\n\n"
-        },
-        {
-          "skills_r": "Spirit Rush\nCOST: 100 MANA\nCOOLDOWN: 130 / 105 / 80\nCAST TIME: NONE\nTARGET RANGE: 500\nEFFECT RADIUS: Range center 600\nSPEED: 1200 + 100% MOVEMENT SPEED / 1400\nSpirit Rush\nACTIVE: Ahri Dash dashes to the target location and then fires essence bolts to up to 3 nearby visible enemies, each dealing magic damage.\nSpirit Rush can be recast twice more within 15 seconds of the activation at no additional cost, with a 1-second static cooldown between casts. Consuming a champion's essence with Essence Theft Essence Theft while Spirit Rush is active extends the recast duration by and up to 10 seconds, and grants an additional recast, storing up to 3 recasts at a time.\nMAGIC DAMAGE:\n60 / 90 / 120 (+ 35% AP)\nRECAST: Ahri mimics the first cast's effects.\nSpirit Rush's recast duration will persist even after having used all recasts. Fox-Fire Fox-Fire can be cast during the dash. Spirit Rush will cast at max range if cast beyond that.\n\n"
-        }
-      ]
-      }
+          "id": 2,
+          "image": "https://i.imgur.com/rDxmEDJ.jpg",
+          "name": "AHRI THE NINE-TAILED FOX",
+          "lore": "Innately connected to the magic of the spirit realm, Ahri is a fox-like vastaya who can manipulate her prey's emotions and consume their essence—receiving flashes of their memory and insight from each soul she consumes. Once a powerful yet wayward predator, Ahri is now traveling the world in search of remnants of her ancestors while also trying to replace her stolen memories with ones of her own making.\n\n",
+          "attributes": "Health (590 – 2222)\nMana (418 – 843)\nHealth regen. (per 5s)(2.5 – 12.7)\nMana regen. (per 5s)(8 – 21.6)\nArmor(21 – 100.9)\nAttack damage (53 – 104)\nMagic resist. (30 – 52.1)\nCrit. damage 175%\nMove. speed 330\nAttack range 550\nBase attack speed 0.668\nAttack windup 20.054%\nAS ratio N/A\nBonus AS (0 – 34%)\n\n",
+          "skills": [
+            {
+              "skills_passive": "Essence Theft\nINNATE: Ahri generates a stack of Essence Fragment whenever she kills aminion or monster. At 9 stacks, she consumes them to heal herself for 35 − 95 (based on level) (+ 20% AP).\nAdditionally, whenever Ahri scores a champion Damage rating takedown within 3 seconds of damaging them, she consumes their essence to heal herself for 75 − 165 (based on level) (+ 30% AP)\n\n"
+            },
+            {
+            "skills_q": "Orb of Deception\nCOST: 55 / 65 / 75 / 85 / 95 MANA\nCOOLDOWN: 7\nCAST TIME: 0.25\nRANGE: Range center 900\nEFFECT RADIUS: Range center 100\nWIDTH: Range model 200\nSPEED: 1550 / 60 - 2600\nACTIVE: Ahri sends her orb in the target direction that deals magic damage to enemies hit. At maximum range, the orb homes back to her to deal the same in true damage to enemies hit.\nDAMAGE PER PASS:»\n40 / 65 / 90 / 115 / 140 (+ 45% AP)\nEnemies can be hit only once per pass.\n\n"
+            },
+            {
+            "skills_w": "Fox-Fire\nCOST: 30 MANA\nCOOLDOWN: 9 / 8 / 7 / 6 / 5\nCAST TIME: NONE\nEFFECT RADIUS: Range center 150 / 550 / 725\nSPEED: 75.92° PER SECOND / 1400\nACTIVE: Ahri gains 40% bonus movement speed that decays over 2 seconds and conjures three flames which orbit her clockwise for up to 2.5 seconds.\nAfter 0.25 seconds, each flame targets a visible enemy, or after 0.4 seconds targets the closest visible enemy in range, dealing magic damage. The damage is doubled against minions below 20% maximum health.\nMAGIC DAMAGE:»\n50 / 75 / 100 / 125 / 150 (+ 30% AP)\nSubsequent flames on a single target deal 30% damage\nADDITIONAL MAGIC DAMAGE:»\n15 / 22.5 / 30 / 37.5 / 45 (+ 9% AP)\nFlames prioritize enemy champions hit by Charm, then enemy champions, then minions that would die to Fox-Fire's damage, and then the target of Ahri's last basic attack within 3 seconds.\n\n"
+            },
+            {
+              "skills_e": "Charm\nCOST: 60 MANA\nCOOLDOWN: 14\nCAST TIME: 0.25\nRANGE: Range center 1000\nWIDTH: Range model 120\nSPEED: 1550\nACTIVE: Ahri blows forth a kiss in the target direction that deals magic damage to the first enemy hit, knocking them down and charming and slowing them by 65% for a duration.\nMAGIC DAMAGE:»\n80 / 110 / 140 / 170 / 200 (+ 60% AP)\nDISABLE DURATION:»\n1.2 / 1.4 / 1.6 / 1.8 / 2\n\n"
+            },
+            {
+              "skills_r": "Spirit Rush\nCOST: 100 MANA\nCOOLDOWN: 130 / 105 / 80\nCAST TIME: NONE\nTARGET RANGE: 500\nEFFECT RADIUS: Range center 600\nSPEED: 1200 + 100% MOVEMENT SPEED / 1400\nSpirit Rush\nACTIVE: Ahri Dash dashes to the target location and then fires essence bolts to up to 3 nearby visible enemies, each dealing magic damage.\nSpirit Rush can be recast twice more within 15 seconds of the activation at no additional cost, with a 1-second static cooldown between casts. Consuming a champion's essence with Essence Theft Essence Theft while Spirit Rush is active extends the recast duration by and up to 10 seconds, and grants an additional recast, storing up to 3 recasts at a time.\nMAGIC DAMAGE:\n60 / 90 / 120 (+ 35% AP)\nRECAST: Ahri mimics the first cast's effects.\nSpirit Rush's recast duration will persist even after having used all recasts. Fox-Fire Fox-Fire can be cast during the dash. Spirit Rush will cast at max range if cast beyond that.\n\n"
+            }
+          ]
+          },
+          {
+              "id": 3,
+              "image": "../assets/aatrox.png",
+              "name": "AKALI THE ROGUE ASSASSIN",
+              "lore": "Abandoning the Kinkou Order and her title of the Fist of Shadow, Akali now strikes alone, ready to be the deadly weapon her people need. Though she holds onto all she learned from her master Shen, she has pledged to defend Ionia from its enemies, one kill at a time. Akali may strike in silence, but her message will be heard loud and clear: fear the assassin with no master.\n\n",
+              "attributes": "Health (570 – 2593)\nEnergy 200\nHealth regen. (per 5s) (9 – 24.3)\nEnergy regen. (per 5s) 50\nArmor (23 – 102.9)\nAttack damage(62 – 118.1)\nMagic resist. (37 – 71.85)\nCrit. damage 175%\nMove. speed 345\nAttack range 125\nGameplay radius 65\nSelection radius 100\nPathing radius 30\nAcq. radius 400\n\n",
+              "skills": [
+                {
+                  "skills_passive": "Assassin's Mark\nEFFECT RADIUS: 500\nINNATE: When Akali damages an enemy Champion icon champion with an ability, she creates a ring around them for 4 seconds, refreshing on subsequent damaging abilities against champions. For 2 seconds, she gains 30 / 40 / 50 / 60% (based on level) Movement speed icon bonus movement speed while moving away from the center of the ring. Only one ring may be active at a time.\nWhen Akali exits the ring, for 2 seconds, she regains the bonus movement speed while facing nearby enemy champions and becomes empowered with Swinging Kama for 4 seconds, during which she cannot create another ring.\nSWINGING KAMA: Akali's next basic attack is empowered to have its Range icon range doubled and deal 35 − 182 (based on level) (+ 60% bonus AD) (+ 55% AP) bonus magic damage.\n"
+                },
+                {
+                "skills_q":"Five Point Strike\nCOST: 130 / 115 / 100 / 85 / 70 ENERGY\nCOOLDOWN: 1.5\nCAST TIME: 0.25 / 0.225 / 0.2 / 0.175 (BASED ON LEVEL)\nTARGET RANGE: 500 / 120\nWIDTH: 350\nANGLE: 20°\nFive Point Strike\nACTIVE: Akali unleashes kunais in a cone in the target direction, dealing magic damage to enemies hit. Targets at maximum range are also Slow icon slowed by 50% for 0.5 seconds.\nMAGIC DAMAGE:\n40 / 65 / 90 / 115 / 140 (+ 65% AD) (+ 60% AP)\n"
+                },
+                {
+                "skills_w":"Twilight Shroud\nCOOLDOWN: 20\nCAST TIME: 0.25\nTARGET RANGE: 250\nEFFECT RADIUS: 350 / 1175\nTwilight Shroud\nACTIVE: Akali restores Energy icon 100 energy over 0.4 seconds and gains Movement speed icon bonus movement speed that decays over 2 seconds. She also detonates a smoke bomb a fixed distance away in the target direction, creating a circular shroud that expands over the next 5 seconds into a ring. The shroud does not permeate terrain, and will expand toward nearby enemy champions. While the shroud is active, Akali's maximum energy is increased by 100.\nBONUS MOVEMENT SPEED: 30 / 35 / 40 / 45 / 50%\nSHROUD DURATION:\n5 / 5.5 / 6 / 6.5 / 7\nEntering the shroud renders Akali Twilight Shroud old2 invisible, unless she is Dash dashing.\nDeclaring a basic attack or casting an ability will break the invisibility and prevent Akali from entering it for 1 − 0.625 (based on minutes) seconds, refreshing on subsequent attacks and casts.\nThe marked marked section of Twilight Shroud will linger for the mark's duration, even after the shroud ends.\n"
+                },
+                {
+                  "skills_e":"Shuriken Flip\nCOST: 30 ENERGY\nCOOLDOWN: 16 / 14.5 / 13 / 11.5 / 10\nCAST TIME: 0.4 / 0.25\nTARGET RANGE: Range model 825\nEFFECT RADIUS: GLOBAL\nWIDTH: Range model 120\nSPEED: 1800 / 1500\nShuriken Flip\nACTIVE: Akali Dash flips backward and, after the cast time, throws a shuriken in the target direction that deals magic damage to the first enemy hit.\nMAGIC DAMAGE:\n30 / 56.25 / 82.5 / 108.75 / 135 (+ 25.5% AD) (+ 36% AP)\nThe shuriken marks and True Sight icon reveals the enemy or the last smoke smoke section hit for 3 seconds, during which Shuriken Flip can be recast to consume the mark.\nShuriken Flip 2\nRECAST: Akali Dash dashes towards the marked target or smoke section, regardless of distance. Against enemies she deals magic damage upon arrival.\nMAGIC DAMAGE:»\n70 / 131.25 / 192.5 / 253.75 / 315 (+ 59.5% AD) (+ 84% AP)\nAkali will not flip backwards if she is Stun icon immobilized or Grounded icon grounded during the cast time. Twilight Shroud Twilight Shroud and Perfect Execution Perfect Execution can be cast during the recast's dash.\n"
+                },
+                {
+                  "skills_r":"Perfect Execution\nCOOLDOWN: 100 / 80 / 60\nCAST TIME: NONE (0.25) / NONE\nTARGET RANGE: Range center 675\nCOLLISION RADIUS: Range model 110\nSPEED: 1500 / 3000\nPerfect Execution\nACTIVE: Akali Dash dashes 750 units in the direction of the target enemy Champion icon champion, dealing magic damage to enemies she passes through. If this hits an enemy, she flips over them to continue the dash up to the normal range but for at least another 150 units.\nMAGIC DAMAGE:\n80 / 220 / 360 (+ 50% bonus AD) (+ 30% AP)\nPerfect Execution can be recast after a 2.5-second static cooldown within 10 seconds of the first activation.\nPerfect Execution 2\nRECAST: Akali Dash dashes 800 units in the target direction, dealing magic damage to enemies she passes through, increased by 0% − 200% (based on target's missing health).\nMINIMUM MAGIC DAMAGE:»\n60 / 130 / 200 (+ 30% AP)"
+                }
+              ]
+              }
   ]
 }
