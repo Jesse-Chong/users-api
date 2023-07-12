@@ -7,12 +7,14 @@ const bodyParser = require("body-parser")
 app.use(cors());
 app.use(bodyParser.json({ limit: '10mb' }));
 
-app.get('/users', (req, res) => {
-  const formattedUsers = users.map(user => {
-    user.lore = user.lore.replace(/\n/g, '\n\n');
-    return user;
-  });
-  res.json(formattedUsers);
+app.get('/users/:id', (req, res) => {
+const championId = parseInt(req.params.id);
+const champion = users.find(user => user.id === championId);
+if(champion) {
+    res.json(champion);
+} else {
+    res.status(404).json({ message: 'Champion not found' });
+}
 });
 
 app.listen(3000, () => {
