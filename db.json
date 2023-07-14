@@ -33,6 +33,75 @@
             "cooldown": 120
           }
         ]
-      }
+      },
+          {
+            "id": 2,
+            "image": "https://users-api-images.s3.us-east-2.amazonaws.com/ahri.jpeg",
+            "name": "AHRI THE NINE-TAILED FOX",
+            "lore": "Innately connected to the magic of the spirit realm, Ahri is a fox-like vastaya who can manipulate her prey's emotions and consume their essence—receiving flashes of their memory and insight from each soul she consumes. Once a powerful yet wayward predator, Ahri is now traveling the world in search of remnants of her ancestors while also trying to replace her stolen memories with ones of her own making.",
+            "attributes": "Health (590 – 2222)\nMana (418 – 843)\nHealth regen. (per 5s)(2.5 – 12.7)\nMana regen. (per 5s)(8 – 21.6)\nArmor(21 – 100.9)\nAttack damage (53 – 104)\nMagic resist. (30 – 52.1)\nCrit. damage 175%\nMove. speed 330\nAttack range 550\nBase attack speed 0.668\nAttack windup 20.054%\nAS ratio N/A\nBonus AS (0 – 34%)",
+            "skills": [
+              {
+                "name": "Vastayan Grace",
+                "skillDescription": "Killing minions or monsters grants Ahri an Essence Fragment. After obtaining 9 Essence Fragments, Ahri consumes them to heal for 35-95 (+20% bonus Ability Power). When Ahri scores a takedown against an enemy champion within 3 seconds of damaging them, she feasts upon their Essence, healing for 75-165 (+30% bonus Ability Power).",
+                "cooldown": 8
+              },
+              {
+                "name": "Orb of Deception",
+                "skillDescription": "Deals 40/65/90/115/140 (+45% bonus Ability Power) magic damage on the way out, and 40/65/90/115/140 (+45% bonus Ability Power) true damage on the way back.",
+                "cooldown": 14
+              },
+              {
+                "name": "Fox-Fire",
+                "skillDescription": "Releases fox-fires that seek nearby enemies during 2.5 seconds and deal 50/75/100/125/150 (+30% bonus Ability Power) magic damage and gains a burst of decaying 40% Movement Speed that lasts for 2 seconds. Enemies hit with multiple fox-fires take 30% damage from each additional fox-fire beyond the first, for a maximum of 64/104/144/184/224 +48% bonus Ability Power damage to a single enemy. (Fox-fire prioritizes champions recently hit by Charm, then enemies Ahri recently attacked.) (If Fox-fire cannot find a priority target, it targets champions over the nearest enemy if possible.) (Minions below 20% health take 200% damage.)",
+                "cooldown": 9
+              },
+              {
+                "name": "Charm",
+                "skillDescription": "Blows a kiss that deals 80/110/140/170/200 (+40% bonus Ability Power) magic damage and charms the first enemy hit, causing them to walk harmlessly towards Ahri for 1.2/1.4/1.6/1.8/2 second(s), and immediately stopping any in-progress movement abilities.",
+                "cooldown": 14
+              },
+              {
+                "name": "Spirit Rush",
+                "skillDescription": "Ahri Nimbly dashes forward firing 3 essence bolts at nearby enemies, prioritizing champions. These bolts deal 60/90/120 (+35% bonus Ability Power) magic damage each. Spirit Rush can be recast up to 2 more times within 15 seconds. Consuming a champion's Essence with Essence Theft during this period extends the recast window by up to 10 seconds and grants an additional recast of Spirit Rush (up to 3 stored).",
+                "cooldown": 130
+              }
+            ]
+          },
+              {
+                "id": 3,
+                "image": "https://users-api-images.s3.us-east-2.amazonaws.com/akali.jpeg",
+                "name": "AKALI THE ROGUE ASSASSIN",
+                "lore": "Abandoning the Kinkou Order and her title of the Fist of Shadow, Akali now strikes alone, ready to be the deadly weapon her people need. Though she holds onto all she learned from her master Shen, she has pledged to defend Ionia from its enemies, one kill at a time. Akali may strike in silence, but her message will be heard loud and clear: fear the assassin with no master.",
+                "attributes": "Health (570 – 2593)\nEnergy 200\nHealth regen. (per 5s) (9 – 24.3)\nEnergy regen. (per 5s) 50\nArmor (23 – 102.9)\nAttack damage(62 – 118.1)\nMagic resist. (37 – 71.85)\nCrit. damage 175%\nMove. speed 345\nAttack range 125\nGameplay radius 65\nSelection radius 100\nPathing radius 30\nAcq. radius 400",
+                "skills": [
+                  {
+                    "name": "Assassin's Mark",
+                    "skillDescription": "Dealing spell damage to a champion creates a ring of energy around them for 5 seconds, granting her 35/40/45/50% bonus movement speed for 2 seconds while moving towards the edge of the ring. Exiting that ring empowers Akali's next autoattack, gains 125 bonus range and deals 35 - 182 (+ 60% bonus Attack Damage) (+ 55% bonus Ability Power) magic damage.",
+                    "cooldown": 24
+                  },
+                  {
+                    "name": "Five Point Strike",
+                    "skillDescription": "Slings kunai in an arc, dealing 40/65/90/115/140 (+65% bonus Attack Damage) (+60% bonus Ability Power) magic damage. Enemies at the tip are slowed by 50 for 0.5 seconds.",
+                    "cooldown": 1.5
+                  },
+                  {
+                    "name": "Twilight Shroud",
+                    "skillDescription": "Akali drops a smoke bomb, unleashing a spreading cover of smoke lasting 5/5.5/6/6.5/7 seconds. The smoke grants Akali invisibility and 30/35/40/45/50% decaying movement speed for 2 seconds. Stealth - Invisible: Akali can only be revealed by nearby enemy Turrets or True Sight. Akali increases her energy by 100 while the shroud is active.",
+                    "cooldown": 20
+                  },
+                  {
+                    "name": "Shuriken Flip",
+                    "skillDescription": "Flip backward and fire a shuriken forward, dealing 30/56.25/82.5/108.75/135 (+85% Attack Damage) (+120% bonus Ability Power) magic damage and marking the first enemy or smoke cloud hit. Re-cast: Dash to the marked target, dealing 70/131.25/192.5/253.75/315(+85% Attack Damage) (+120% bonus Ability Power).",
+                    "cooldown": 16
+                  },
+                  {
+                    "name": "Perfect Execution",
+                    "skillDescription": "Two dashes: The first vaults over target enemy, dealing 80/220/360 (+50% bonus Attack Damage) (+30% bonus Ability Power) magic damage to all enemies Akali dashes over. Akali can dash again after 2.5 seconds. The second is an untargeted piercing thrust that executes, dealing 60/130/200 (+30% bonus Ability Power) to 180/390/600 (+90% bonus Ability Power) magic damage based on missing health.",
+                    "cooldown": 100
+                  }
+                ]
+              }
+
     ]
   }
