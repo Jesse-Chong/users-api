@@ -5,7 +5,7 @@
         "image": "https://users-api-images.s3.us-east-2.amazonaws.com/aatrox.png",
         "name": "AATROX THE DARKIN BLADE",
         "lore": "Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery. But after centuries of imprisonment, Aatrox was the first to find freedom once more, corrupting and transforming those foolish enough to try and wield the magical weapon that contained his essence. Now, with stolen flesh, he walks Runeterra in a brutal approximation of his previous form, seeking an apocalyptic and long overdue vengeance.",
-        "attributes": "Health(650 – 2588) Mana(N/A) Health regen.(per 5s)(3–20) Mana regen.(N/A) Armor(38 – 113.65) Attack damage(60 – 145) Magic resist.(32 – 66.85) Crit. damage 175%<Move. speed 345 Attack range 175 Base attack speed 0.651 Attack windup 19.737% AS ratio N/A Bonus AS (0 – 42.5%)",
+        "attributes": "Health(650 – 2588) Mana(N/A) Health regen.(per 5s)(3–20) Mana regen.(N/A) Armor(38 – 113.65) Attack damage(60 – 145) Magic resist.(32 – 66.85) Crit. damage 175% Move. speed 345 Attack range 175 Base attack speed 0.651 Attack windup 19.737% AS ratio N/A Bonus AS (0 – 42.5%)",
         "skills": [
           {
             "name": "Deathbringer Stance",
